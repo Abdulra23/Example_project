@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--yes yes-->
+<!--This file was created by Agent Factory-->
+<!--Version agentfac 201905141302-->
+<PRIVATECONFIGURATION>
+  <!-- Situation Description: Number of connections is critically high.-->
+  <PRIVATESIT>
+    <SITUATION>MongoDB_Connections_High</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KKJ_MONGO_INSTANCE_INFORMATION.Percentage_of_Connecitons *GE 90]]></CRITERIA>
+    <INTERVAL>000200</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KKJMONGOIN.HOST_NAME;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: There is no running process, system is down.-->
+  <PRIVATESIT>
+    <SITUATION>MongoDB_Down</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KKJ_GLOBAL_STATUS.Status *EQ 0]]></CRITERIA>
+    <INTERVAL>000200</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KKJGLOBALS.STATUS;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Replication set does not have enough voting members.-->
+  <PRIVATESIT>
+    <SITUATION>MongoDB_Members_Down</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KKJ_GLOBAL_STATUS.Status *EQ 1]]></CRITERIA>
+    <INTERVAL>000200</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KKJGLOBALS.STATUS;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+</PRIVATECONFIGURATION>

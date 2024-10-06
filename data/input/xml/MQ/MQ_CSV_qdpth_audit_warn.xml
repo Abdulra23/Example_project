@@ -1,0 +1,13 @@
+<TABLE><ROW><SITNAME>MQ_CSV_qdpth_audit_warn</SITNAME><FULLNAME><![CDATA[MQ_CSV_qdpth_audit_warn]]></FULLNAME><ADVISE><![CDATA[*NONE]]></ADVISE><AFFINITIES><![CDATA[00040000000000000000000000000000###########]]></AFFINITIES><ALERTLIST>*NO</ALERTLIST><AUTOSOPT>YNY</AUTOSOPT><AUTOSTART>*YES</AUTOSTART><CMD><![CDATA[AUTOCMWEP CSVMQAME CSVMQAMP &Queue_Statistics.Queue_Name on &Queue_Statistics.MQ_Manager_Name &Queue_Statistics.Host_Name  is &Queue_Statistics.Percent_Full percent full .Call DCO 636-97223]]></CMD><DESTNODE></DESTNODE><HUB></HUB><LOCFLAG>M</LOCFLAG><LSTCCSID>en_US</LSTCCSID><LSTDATE>1131028102146000</LSTDATE><LSTRELEASE>V100</LSTRELEASE><LSTUSRPRF>A709087</LSTUSRPRF><NOTIFYARGS></NOTIFYARGS><NOTIFYOPTS></NOTIFYOPTS><OBJECTLOCK></OBJECTLOCK><PDT><![CDATA[*IF *VALUE Queue_Statistics.Queue_Name *EQ 'Q1CYC.PSODCICG.AUDIT.SUMMARY' *AND  *VALUE Queue_Statistics.Percent_Full *GE 85]]></PDT><PRNAMES> MV855 MV413</PRNAMES><QIBSCOPE>E</QIBSCOPE><REEV_DAYS>0</REEV_DAYS><REEV_TIME>000200</REEV_TIME><REFLEXOK></REFLEXOK><SENDMSGQ>*NONE</SENDMSGQ><SITINFO><![CDATA[ATOM=QMQUEUES.QNAME;TFWD=Y;SEV=Warning;TDST=2,3;~;]]></SITINFO><SOURCE></SOURCE><TEXT><![CDATA[NT, W, CSV002W, MQ, APPL, A, 01, 01, EMAIL/PAGE]]></TEXT></ROW><ROW>
+<ID>MQ_CSV_qdpth_audit_warn</ID>
+<OBJCLASS>2250</OBJCLASS>
+<SEQUENCE>9999</SEQUENCE>
+<TYPE></TYPE>
+<LSTDATE>1140808124040000</LSTDATE>
+<LSTUSRPRF>A459221</LSTUSRPRF>
+<LSTRELEASE></LSTRELEASE>
+<LOCFLAG>M</LOCFLAG>
+<RESERVED></RESERVED>
+<MAP><![CDATA[<situation name="MQ_CSV_qdpth_audit_warn"  ><class name="ITM_Queue_Statistics" /><slot slotName="appl_label" ><mappedAttributeValue name="Queue_Statistics.Queue_Name" /></slot><slot slotName="msg" ><literalString value="MQ--Queue $Queue_Statistics.Queue_Name$ Is $Queue_Statistics.Percent_Full$ Percent Full On $Queue_Statistics.Origin_Node$" /></slot><slot slotName="AdviceCode" ><literalString value="MQ_CSV_qdpth_audit_warn" /></slot></situation>]]></MAP>
+</ROW>
+</TABLE>

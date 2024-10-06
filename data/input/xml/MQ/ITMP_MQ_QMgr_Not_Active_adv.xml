@@ -1,0 +1,13 @@
+<TABLE><ROW><SITNAME>ITMP_MQ_QMgr_Not_Active_adv</SITNAME><FULLNAME><![CDATA[]]></FULLNAME><ADVISE><![CDATA[*NONE]]></ADVISE><AFFINITIES><![CDATA[00040000000000000000000000000000###########]]></AFFINITIES><ALERTLIST></ALERTLIST><AUTOSOPT>YNY</AUTOSOPT><AUTOSTART>*YES</AUTOSTART><CMD><![CDATA[*NONE]]></CMD><DESTNODE></DESTNODE><HUB></HUB><LOCFLAG>M</LOCFLAG><LSTCCSID>en_US</LSTCCSID><LSTDATE>1160913142230000</LSTDATE><LSTRELEASE>V100</LSTRELEASE><LSTUSRPRF>A459221</LSTUSRPRF><NOTIFYARGS></NOTIFYARGS><NOTIFYOPTS></NOTIFYOPTS><OBJECTLOCK></OBJECTLOCK><PDT><![CDATA[*IF ( ( *VALUE Managers.MQ_Manager_Status *NE Active *AND *VALUE Local_Time.Day_Of_Week *NE Sunday ) *OR ( *VALUE Managers.MQ_Manager_Status *NE Active *AND *VALUE Local_Time.Day_Of_Week *EQ Sunday *AND *VALUE Local_Time.Hours *GT 10 ) )]]></PDT><PRNAMES></PRNAMES><QIBSCOPE>E</QIBSCOPE><REEV_DAYS>0</REEV_DAYS><REEV_TIME>000700</REEV_TIME><REFLEXOK></REFLEXOK><SENDMSGQ>*NONE</SENDMSGQ><SITINFO><![CDATA[COUNT=3;TFWD=Y;SEV=Informational;TDST=1,2,3;~;]]></SITINFO><SOURCE></SOURCE><TEXT><![CDATA[Recycle kmqagent]]></TEXT></ROW><ROW>
+<ID>ITMP_MQ_QMgr_Not_Active_adv</ID>
+<OBJCLASS>2250</OBJCLASS>
+<SEQUENCE>9999</SEQUENCE>
+<TYPE></TYPE>
+<LSTDATE>1210413095154000</LSTDATE>
+<LSTUSRPRF>A459221</LSTUSRPRF>
+<LSTRELEASE></LSTRELEASE>
+<LOCFLAG></LOCFLAG>
+<RESERVED></RESERVED>
+<MAP><![CDATA[<situation name="ITMP_MQ_QMgr_Not_Active_adv"  ><class name="ITM_Managers" /><slot slotName="appl_label" ><mappedAttributeValue name="Managers.MQ_Manager_Name" /></slot><slot slotName="msg" ><literalString value="ITM--MQ Queue Manager $Managers.MQ_Manager_Name$ Has A Status Of $Managers.MQ_Manager_Status$ On $Managers.Host_Name$" /></slot><slot slotName="msg_catalog" ><literalString value="noshow" /></slot><slot slotName="NotifyAction" ><literalString value="11" /></slot><slot slotName="NotifyCategory" ><literalString value="2" /></slot><slot slotName="NotifyEmailGroup" ><literalString value="username@email.com" /></slot></situation>]]></MAP>
+</ROW>
+</TABLE>

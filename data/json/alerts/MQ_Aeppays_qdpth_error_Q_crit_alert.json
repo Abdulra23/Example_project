@@ -1,0 +1,24 @@
+{
+    "alertName": "MQ_Aeppays_qdpth_error_Q_crit_alert",
+    "muteUntil": 0,
+    "integrationIds": [],
+    "eventFilteringConfiguration": {
+        "query": "entity.tag:Ben",
+        "ruleIds": [
+            "MQ_Aeppays_qdpth_error_Q_crit"
+        ],
+        "applicationAlertConfigIds": []
+    },
+    "customPayloadFields": [
+        {
+            "key": "msg",
+            "type": "staticString",
+            "value": "MQ--Queue $Queue_Statistics.Queue_Name$ Is $Queue_Statistics.Percent_Full$ Percent Full On $Queue_Statistics.Origin_Node$"
+        },
+        {
+            "key": "AdviceCode",
+            "type": "staticString",
+            "value": "MQ_Aeppays_qdpth_Q280P"
+        }
+    ]
+}

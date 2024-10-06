@@ -1,0 +1,55 @@
+﻿ITM_XML,Instana_JSON_value,ITM_Attribute,Instana_JSON_prop,Comment
+*EQ,=,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*NE,!=,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*GT,>,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*GE,>=,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*LT,<,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*LE,<=,,rule.conditionOperator,Metric condition operator - rule.conditionOperator
+*IN,,,,Not supported?? -  when PDT *IF condition *VALUE is followed by *IN
+*SCAN,contains,,,Metric matching operator - rule.metricPattern.operator when PDT *IF condition *VALUE is followed by *SCAN
+*VALUE,is,,,Metric matching operator - rule.metricPattern.operator when PDT *IF condition is followed by *VALUE
+*STR,contains,,,Metric matching operator - rule.metricPattern.operator when PDT *IF condition is followed by *STR
+*COUNT,,,,Not supported - on roadmap... -  when PDT *IF condition is followed by *COUNT
+*YES,TRUE,,,lower case boolean in Instana
+*NO,FALSE,,,lower case boolean in Instana
+Critical,10,SEV,,"Severity - Instana ""critical"" == 10"
+Fatal,10,SEV,,"Severity - Instana ""critical"" == 10"
+Warning,5,SEV,,"Severity - Instana ""warning"" == 5"
+Minor,5,SEV,,"Severity - Instana ""warning"" == 5"
+Harmless,5,SEV,,"Severity - Instana ""warning"" == 5"
+Unknown,0,SEV,,"Severity - 0 is not a valid Instana value, but migration tool will treat as skipping migration"
+Informational,0,SEV,,"Severity - 0 is not a valid Instana value, but migration tool will treat as skipping migration"
+"""000005""",5000,,,5s
+"""000010""",10000,,,10s
+"""000030""",30000,,,30s
+"""000100""",60000,,,60s
+"""000130""",90000,,,90s
+"""000500""",300000,,,5 min
+"""001000""",600000,,,10 min
+"""003000""",1800000,,,30 min
+"""010000""",3600000,,,60 min
+"""013000""",5400000,,,90 min
+"""020000""",7200000,,,120 min
+"""040000""",14400000,,,4 h (available only in Grace Period dropdown options)
+"""060000""",21600000,,,6 h (available only in Grace Period dropdown options)
+"""120000""",43200000,,,12 h (available only in Grace Period dropdown options)
+"""000000""",86400000,,,"24 h (available only in Grace Period dropdown options) - ITM shows ""days"" value in a separate element - e.g. REEV_DAYS"
+Inactive,0,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Active,1,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Unknown,3,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+QueueManager_Not_Available,4,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+CommandServer_Not_Responding,5,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Dynamic_Queue_Allocation_Error,6,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Cluster_Repository_Unavailable,7,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Standby,8,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+Running_Elsewhere,9,Managers.MQ_Manager_Status,rule.conditionValue,ENUM Mapping: Managers.MQ_Manager_Status --> ibmMqQueueManager.metricStatus
+,entity.application.id,,,"Scope - apply on Application perspective - ""query"" property"
+,null,,,"Scope - apply to all available entities - ""query"" property"
+,entity.host.name,,,"Scope - apply to dynamic query if ITM DESTINATION set - ""query"" property"
+STOPPED,1,NT_Services.Current_State,rule.conditionValue,
+STARTING,2,NT_Services.Current_State,rule.conditionValue,
+STOPPING,3,NT_Services.Current_State,rule.conditionValue,
+RUNNING,4,NT_Services.Current_State,rule.conditionValue,
+CONTINUING,5,NT_Services.Current_State,rule.conditionValue,
+PAUSING,6,NT_Services.Current_State,rule.conditionValue,
+PAUSED,7,NT_Services.Current_State,rule.conditionValue,

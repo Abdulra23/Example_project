@@ -1,0 +1,34 @@
+{
+    "alertName": "MQ_EDISA_CurrDepth_adv_alert",
+    "muteUntil": 0,
+    "integrationIds": [],
+    "eventFilteringConfiguration": {
+        "query": "entity.tag:Ben",
+        "ruleIds": [
+            "MQ_EDISA_CurrDepth_adv"
+        ],
+        "applicationAlertConfigIds": []
+    },
+    "customPayloadFields": [
+        {
+            "key": "msg",
+            "type": "staticString",
+            "value": "MQ--Queue $Queue_Statistics.Queue_Name$ Has A Current Depth Of $Queue_Statistics.Current_Depth$ On $Queue_Statistics.Origin_Node$"
+        },
+        {
+            "key": "NotifyAction",
+            "type": "staticString",
+            "value": "11"
+        },
+        {
+            "key": "NotifyCategory",
+            "type": "staticString",
+            "value": "2"
+        },
+        {
+            "key": "NotifyEmailGroup",
+            "type": "staticString",
+            "value": "username@email.com"
+        }
+    ]
+}

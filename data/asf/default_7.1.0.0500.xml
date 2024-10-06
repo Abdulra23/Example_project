@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<privateconfiguration>
+
+<!-- Situation Description: The percentage of tablespace usage exceeds the critical threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_TS_Utilization_Crit" INTERVAL="000500" ></SITUATION>
+<criteria>
+<![CDATA[*VALUE KUD_Tablespace_Auto_Resize.TBSP_Utilization *GT 95.00 *AND *VALUE KUD_Tablespace_Auto_Resize.TBSP_Using_Auto_Storage *EQ 0]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDRESIZ.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The maximum tablespace size that is used exceeds the critical threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_TS_Utilization_Crit_2" INTERVAL="000500" ></SITUATION>
+<criteria>
+<![CDATA[*VALUE KUD_Tablespace_Auto_Resize.TBSP_Using_Auto_Storage *EQ 1 *AND *VALUE KUD_Tablespace_Auto_Resize.Used_tablespace_Size_To_Maximum_tablespace_Size *GT 95.00]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDRESIZ.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The percentage of maximum FCM connection entries that are used exceeds the warning threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_Connection_Used_High_Warn" INTERVAL="000500" ></SITUATION>
+<criteria>
+<![CDATA[*VALUE KUD_DB2_System_Overview.ce_max_used_pct *LT 95.00 *AND *VALUE KUD_DB2_System_Overview.ce_max_used_pct *GT 80]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDSYSINFO.INAME;SEV=WARNING;~;]]>
+</sitinfo>
+</privatesit>
+<!-- Situation Description: The percentage of maximum FCM connections entries that are used exceeds the critical threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_Ce_Max_Used_Pct_Crit_2" INTERVAL="010000" ></SITUATION>
+<criteria>
+<![CDATA[*VALUE KUD_DB2_System_Overview.ce_max_used_pct *GT 95.00]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDSYSINFO.INAME;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The percentage of database connections exceeds the critical threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_DB_Cur_Cons_Pct_Crit_2" INTERVAL="010000" ></SITUATION>
+<criteria>
+<![CDATA[*VALUE KUD_DB2_Database01.cur_cons_pct *GT 95.00]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDDBASE01.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The monitored UDB is not at active status. -->
+<privatesit>
+<SITUATION NAME="UDB_Inst_Status_Crit" INTERVAL="000100" ></SITUATION>
+<criteria>
+<![CDATA[*IF *VALUE KUD_DB2_System_Overview.db2_status *EQ Inactive/Busy *OR *VALUE KUD_DB2_System_Overview.db2_status *EQ Unknown ]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDSYSINFO.INAME;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The percentage of applications in lock wait exceeds the critical
+threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_DB_Lock_Waits_Pct_Crit_2" INTERVAL="001000" ></SITUATION>
+<criteria>
+<![CDATA[*IF *VALUE KUD_DB2_Database01.lock_waits_pct *GT 85]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDDBASE01.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: The percentage that is used in the secondary log exceeds the
+critical threshold. -->
+<privatesit>
+<SITUATION NAME="UDB_DB_Sec_Log_Used_Pct_Crit_2" INTERVAL="001000" ></SITUATION>
+<criteria>
+<![CDATA[*IF *VALUE KUD_DB2_Database01.sec_log_used_pct *GT 95]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=1;ATOM=KUDDBASE01.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+<!-- Situation Description: A monitored database experiences more than 95% SQL
+statement failures. -->
+<privatesit>
+<SITUATION NAME="UDB_DB_Sql_Stmts_Fail_Pct_Crt_2" INTERVAL="003000" ></SITUATION>
+<criteria>
+<![CDATA[*IF *VALUE KUD_DB2_Database00.sql_stmts_failed_pct *GT 95]]>
+</criteria>
+<sitinfo>
+<![CDATA[COUNT=2;ATOM=KUDDBASE00.DBNM;SEV=CRITICAL;~;]]>
+</sitinfo>
+</privatesit>
+
+</privateconfiguration>

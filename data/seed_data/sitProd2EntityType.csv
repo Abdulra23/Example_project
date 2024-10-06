@@ -1,0 +1,7 @@
+itm_code,itm_prod_category,instana_entityType
+KBN_XC10,DataPower XC10 Appliances,ibmDataPowerAppliance
+KBN,DataPower Appliances,ibmDataPowerAppliance
+KUD,DB2,db2Database
+KDP,DB2 Subsystems,zDb2
+KD5,DB2 Subsystems,db2ZDatabase
+KMQ,MQ Queue Manager,ibmMqQueue

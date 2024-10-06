@@ -1,0 +1,24 @@
+{
+    "alertName": "MQ_CSV_qdpth_audit_warn_alert",
+    "muteUntil": 0,
+    "integrationIds": [],
+    "eventFilteringConfiguration": {
+        "query": "entity.tag:Ben",
+        "ruleIds": [
+            "MQ_CSV_qdpth_audit_warn"
+        ],
+        "applicationAlertConfigIds": []
+    },
+    "customPayloadFields": [
+        {
+            "key": "msg",
+            "type": "staticString",
+            "value": "MQ--Queue $Queue_Statistics.Queue_Name$ Is $Queue_Statistics.Percent_Full$ Percent Full On $Queue_Statistics.Origin_Node$"
+        },
+        {
+            "key": "AdviceCode",
+            "type": "staticString",
+            "value": "MQ_CSV_qdpth_audit_warn"
+        }
+    ]
+}

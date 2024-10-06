@@ -1,0 +1,28 @@
+situation_code,situation_description
+MongoDB_Connections_High, Number of connections is critically high.
+MongoDB_Down," There is no running process, system is down."
+MongoDB_Members_Down, Replication set does not have enough voting members.
+Server_Crit, Critical or major faults occurred in the server.
+Server_Warn," Information, warning, or minor faults occurred in the server."
+Chassis_FEX_Crit, Critical or major faults occurred in the component.
+Chassis_FEX_Warn, Warning or minor faults occurred in the component.
+FI_Crit, Critical or major faults occurred in fabric interconnect.
+FI_Warn, Warning or minor faults occurred in the fabric interconnect.
+FI_Fan_Crit, Critical or major faults occurred in fabric interconnect fans.
+FI_Fan_Warn," Information, warning, or minor faults occurred in the FI fans."
+UDB_TS_Utilization_Crit,The percentage of tablespace usage exceeds the critical threshold. 
+UDB_TS_Utilization_Crit_2,The maximum tablespace size that is used exceeds the critical threshold. 
+UDB_Connection_Used_High_Warn,The percentage of maximum FCM connection entries that are used exceeds the warning threshold. 
+UDB_Ce_Max_Used_Pct_Crit_2,The percentage of maximum FCM connections entries that are used exceeds the critical threshold. 
+UDB_DB_Cur_Cons_Pct_Crit_2,The percentage of database connections exceeds the critical threshold. 
+UDB_Inst_Status_Crit,The monitored UDB is not at active status. 
+UDB_DB_Lock_Waits_Pct_Crit_2,The percentage of applications in lock wait exceeds the critical
+UDB_DB_Sec_Log_Used_Pct_Crit_2,The percentage that is used in the secondary log exceeds the
+UDB_DB_Sql_Stmts_Fail_Pct_Crt_2,A monitored database experiences more than 95% SQL
+KAK_Collector_Down, The data collector is not returning data to the performance monitoring agent.
+KAK_Warning_Running_Percent, Low percentage of virtual machines running in this subnode.
+KAK_Critical_Running_Percent, Critically low percentage of virtual machines running in this subnode.
+KAK_Collector_Not_Responding, The agent is unable to gather data. It might be misconfigured.
+KAK_High_CPU_Warning, CPU usage is high for a virtual machine.
+KAK_High_CPU_Critical, CPU usage is critically high for a virtual machine.
+KAK_Low_CPU_Warning, CPU usage is low for a virtual machine.

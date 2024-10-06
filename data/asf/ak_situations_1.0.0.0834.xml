@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Blue Medora 2018--><!--This file was created by Agent Factory--><!--Version agentfac 201905141302--><PRIVATECONFIGURATION>
+  <!-- Situation Description: The data collector is not returning data to the performance monitoring agent.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_Collector_Down</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machines_Summary.Collector_Up *EQ 'false']]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Low percentage of virtual machines running in this subnode.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_Warning_Running_Percent</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machines_Summary.Percent_Up *LT 80]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Critically low percentage of virtual machines running in this subnode.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_Critical_Running_Percent</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machines_Summary.Percent_Up *LT 50]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: The agent is unable to gather data. It might be misconfigured.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_Collector_Not_Responding</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_AVM_Performance_Object_Status.Object_Name *EQ 'Virtual_Machine_Details' *AND *VALUE KAK_AVM_Performance_Object_Status.Error_Code *NE NO_ERROR]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: CPU usage is high for a virtual machine.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_High_CPU_Warning</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machine_Metrics.CPU_Usage *GT 85]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KAKVMMETRI.VM_NAME;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: CPU usage is critically high for a virtual machine.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_High_CPU_Critical</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machine_Metrics.CPU_Usage *GT 95]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KAKVMMETRI.VM_NAME;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: CPU usage is low for a virtual machine.-->
+  <PRIVATESIT>
+    <SITUATION>KAK_Low_CPU_Warning</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KAK_Virtual_Machine_Metrics.CPU_Usage *LT 10]]></CRITERIA>
+    <INTERVAL>000100</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KAKVMMETRI.VM_NAME;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+</PRIVATECONFIGURATION>

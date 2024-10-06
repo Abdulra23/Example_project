@@ -1,0 +1,50 @@
+[
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances Connection Accepted",
+        "description": "Connection Accepted",
+        "metricId": "connectionAccepted",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances Status",
+        "description": "Status",
+        "metricId": "statusMetric",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances CPU Usage",
+        "description": "CPU Usage",
+        "metricId": "cpuUsage",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances Memory Usage",
+        "description": "Memory Usage",
+        "metricId": "memoryUsage",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances System Load",
+        "description": "System Load",
+        "metricId": "systemLoad",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "IBM DataPower Appliances Encrypted Filesystem Usage",
+        "description": "Encrypted Filesystem Usage",
+        "metricId": "encryptedFilesystemUsage",
+        "pluginId": "ibmDataPowerAppliance",
+        "custom": false
+    }
+]

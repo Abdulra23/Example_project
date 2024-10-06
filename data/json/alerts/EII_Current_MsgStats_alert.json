@@ -1,0 +1,34 @@
+{
+    "alertName": "EII_Current_MsgStats_alert",
+    "muteUntil": 0,
+    "integrationIds": [],
+    "eventFilteringConfiguration": {
+        "query": "entity.tag:Ben",
+        "ruleIds": [
+            "EII_Current_MsgStats"
+        ],
+        "applicationAlertConfigIds": []
+    },
+    "customPayloadFields": [
+        {
+            "key": "msg",
+            "type": "staticString",
+            "value": "MQ--Queue $Message_Statistics.Queue_Name$ Has A New Message That Is $Message_Statistics.Newest_Message_Seconds$ Old, Total Msgs=$Message_Statistics.Total_Messages$"
+        },
+        {
+            "key": "NotifyAction",
+            "type": "staticString",
+            "value": "11"
+        },
+        {
+            "key": "NotifyCategory",
+            "type": "staticString",
+            "value": "2"
+        },
+        {
+            "key": "NotifyEmailGroup",
+            "type": "staticString",
+            "value": "username@email.com"
+        }
+    ]
+}

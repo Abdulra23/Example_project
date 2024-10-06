@@ -1,0 +1,2410 @@
+[
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/rbd0 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/rbd0.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/ubuntu--vg-root Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./ Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/rbd0 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/rbd0.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Cached",
+        "description": "Memory Cached",
+        "metricId": "memory.cached",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd11admin Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd11admin.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./admin Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./admin.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd1 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd1.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd3 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd3.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd2 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd2.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/livedump Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/livedump.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var/adm/ras/livedump Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./var/adm/ras/livedump.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda1 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/vda1.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd4 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd4.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd11admin Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd11admin.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd4 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd4.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./boot Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./boot.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./tmp Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./tmp.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/adm/ras/livedump Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./var/adm/ras/livedump.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda4 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/vda4.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./admin Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./admin.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd1 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd1.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./boot Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./boot.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd4 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd4.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd3 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd3.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd9var Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd9var.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/rbd0 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/rbd0.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda3 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/vda3.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd9var Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd9var.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./tmp Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./tmp.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var/adm/ras/livedump Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./var/adm/ras/livedump.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./boot.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./boot.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "CPU wait usage",
+        "description": "CPU wait usage",
+        "metricId": "cpu.wait",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd10opt Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd10opt.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./ Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "Open Files Current",
+        "description": "Open Files Current",
+        "metricId": "openFiles.current",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/mapper/rhel-root Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/mapper/rhel-root.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "CPU system usage",
+        "description": "CPU system usage",
+        "metricId": "cpu.sys",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./admin.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./admin.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/livedump Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/livedump.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./opt Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./opt.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "CPU user usage",
+        "description": "CPU user usage",
+        "metricId": "cpu.user",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/mapper/rhel-root Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/mapper/rhel-root.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd10opt.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd10opt.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd11admin Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd11admin.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var/adm/ras/livedump Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./var/adm/ras/livedump.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda1 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/vda1.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd1 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd1.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/rhel-root Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/mapper/rhel-root.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd1 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd1.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "Load",
+        "description": "Load",
+        "metricId": "load.1min",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./usr Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./usr.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./sysroot Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./sysroot.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "Context Switches",
+        "description": "Context Switches",
+        "metricId": "ctxt",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./usr Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./usr.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./var.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda4 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/vda4.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./usr Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./usr.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd1.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd1.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./admin Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./admin.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./opt Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./opt.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "Used",
+        "description": "Memory Used",
+        "metricId": "memory.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd10opt Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd10opt.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./home Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./home.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd4 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd4.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "TCP Established Connections",
+        "description": "TCP Established Connections",
+        "metricId": "tcp.established",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./opt Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./opt.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./ Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/rhel-root.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/mapper/rhel-root.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./tmp.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./tmp.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "Used",
+        "description": "Used Percentage",
+        "metricId": "cpu.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda4 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/vda4.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./usr Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./usr.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/livedump Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/livedump.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda4.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda4.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./admin Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./admin.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Swap free",
+        "description": "Swap free",
+        "metricId": "memory.swapFree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./var Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./var.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./admin Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./admin.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./ Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda4 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/vda4.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/livedump Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/livedump.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./sysroot Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./sysroot.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./admin Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./admin.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd9var Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd9var.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd3 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd3.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var/adm/ras/livedump Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./var/adm/ras/livedump.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/rbd0 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/rbd0.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./home Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./home.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd10opt Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd10opt.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd4 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd4.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd1 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd1.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda4 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda4.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd3 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd3.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./usr Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./usr.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd11admin Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd11admin.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd10opt Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd10opt.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda3.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda3.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/livedump Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/livedump.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/mapper/rhel-root Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/mapper/rhel-root.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Buffers",
+        "description": "Memory Buffers",
+        "metricId": "memory.buffers",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./home Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./home.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./sysroot Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./sysroot.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var/adm/ras/livedump Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./var/adm/ras/livedump.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./var.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./tmp Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./tmp.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Available",
+        "description": "Memory Available",
+        "metricId": "memory.available",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd11admin Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd11admin.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/rbd0 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/rbd0.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./sysroot Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./sysroot.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "TCP Opens/s",
+        "description": "TCP Opens/s",
+        "metricId": "tcp.opens",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda3 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/vda3.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda3 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/vda3.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda1 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/vda1.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./opt Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./opt.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd11admin Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd11admin.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd11admin Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd11admin.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/rbd0 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/rbd0.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./home Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./home.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./home Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./home.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/rhel-root Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/mapper/rhel-root.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./boot Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./boot.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./sysroot Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./sysroot.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda4 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/vda4.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd3 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd3.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/livedump Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/livedump.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd1 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd1.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./home.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./home.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./var.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./boot Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./boot.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./boot Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./boot.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/vda1 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/vda1.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./sysroot.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./sysroot.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./tmp Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./tmp.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./var.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda1 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda1.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./home Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./home.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd10opt Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd10opt.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/livedump Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/livedump.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./admin Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./admin.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./ Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./var.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./usr Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./usr.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda4 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/vda4.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd2 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd2.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/adm/ras/livedump.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var/adm/ras/livedump.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd11admin.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd11admin.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd9var Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd9var.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./opt.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./opt.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./boot Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./boot.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Swap total",
+        "description": "Swap total",
+        "metricId": "memory.swapTotal",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/rhel-root Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/mapper/rhel-root.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd1 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd1.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "TCP Out Resets",
+        "description": "TCP Out Resets",
+        "metricId": "tcp.resets",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./usr Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./usr.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/vda1 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/vda1.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./tmp Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./tmp.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./opt Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./opt.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda3 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/vda3.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd2 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd2.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./sysroot Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./sysroot.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/mapper/ubuntu--vg-root Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./admin Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./admin.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./var Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./var.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd4 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd4.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./ Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./boot Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./boot.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/livedump.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/livedump.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/adm/ras/livedump Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./var/adm/ras/livedump.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda4 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/vda4.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/mapper/ubuntu--vg-root Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd10opt Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd10opt.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./sysroot Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./sysroot.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./sysroot Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./sysroot.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/livedump Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/livedump.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd2 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd2.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./ Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda1 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/vda1.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd2 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd2.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd9var.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd9var.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./usr Writes",
+        "description": "Writes/s",
+        "metricId": "fs_mount./usr.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "TCP Errors",
+        "description": "TCP Errors",
+        "metricId": "tcp.errors",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/ubuntu--vg-root.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda1 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/vda1.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd11admin Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd11admin.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd2 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd2.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/rbd0 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/rbd0.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "TCP Out Segments/s",
+        "description": "TCP Out Segments/s",
+        "metricId": "tcp.outSegs",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/vda4 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/vda4.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd2 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd2.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd9var Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd9var.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./sysroot Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./sysroot.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./tmp Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./tmp.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/vda3 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/vda3.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda3 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/vda3.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./ Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd1 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd1.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd10opt Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd10opt.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./boot Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./boot.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd1 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd1.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "UNDEFINED",
+        "label": "Open Files Used",
+        "description": "Open Files Used",
+        "metricId": "openFiles.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/rbd0.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/rbd0.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./home Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./home.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./var Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./var.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./usr Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./usr.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/ubuntu--vg-root Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./opt Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./opt.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda3 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/vda3.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd9var Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd9var.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd4.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd4.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd9var Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd9var.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./var/adm/ras/livedump Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./var/adm/ras/livedump.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./admin Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./admin.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda1 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/vda1.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "Steal Usage",
+        "description": "CPU steal usage",
+        "metricId": "cpu.steal",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/mapper/rhel-root Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/mapper/rhel-root.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd4 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd4.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var/adm/ras/livedump Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./var/adm/ras/livedump.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./ Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/rbd0 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/rbd0.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/mapper/rhel-root Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/mapper/rhel-root.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd11admin Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd11admin.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd2 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd2.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "Free",
+        "description": "Memory Free",
+        "metricId": "memory.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/adm/ras/livedump Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var/adm/ras/livedump.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/rbd0 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/rbd0.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd3 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd3.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/mapper/rhel-root Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/mapper/rhel-root.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd2 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd2.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./var.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/rbd0 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/rbd0.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/livedump Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/livedump.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./boot Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./boot.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd3.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd3.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./opt Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./opt.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/mapper/rhel-root Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/mapper/rhel-root.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd10opt Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd10opt.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./ Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs_mount./.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd11admin Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd11admin.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd9var Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd9var.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./home Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./home.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd10opt Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/hd10opt.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "TCP Retransmissions",
+        "description": "TCP Retransmissions",
+        "metricId": "tcp.retrans",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "TCP Established Resets",
+        "description": "TCP Established Resets",
+        "metricId": "tcp.establishedResets",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "TCP In Segments/s",
+        "description": "TCP In Segments/s",
+        "metricId": "tcp.inSegs",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/mapper/ubuntu--vg-root Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/mapper/ubuntu--vg-root.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd3 Reads",
+        "description": "Reads/s",
+        "metricId": "fs./dev/hd3.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./home Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./home.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd4 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd4.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd2.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/hd2.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd3 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd3.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd2 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd2.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda1 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/vda1.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System _mount./tmp Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs_mount./tmp.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System _mount./admin Reads",
+        "description": "Reads/s",
+        "metricId": "fs_mount./admin.reads",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda3 Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/vda3.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./usr.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./usr.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd9var Leaked",
+        "description": "Leaked",
+        "metricId": "fs./dev/hd9var.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/livedump Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/livedump.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "RATE",
+        "label": "File System /dev/hd4 Writes",
+        "description": "Writes/s",
+        "metricId": "fs./dev/hd4.writes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/vda4 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/vda4.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/hd3 Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs./dev/hd3.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda3 Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda3.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./usr Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./usr.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./tmp Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./tmp.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/hd4 Bytes Read",
+        "description": "Bytes Read/s",
+        "metricId": "fs./dev/hd4.readBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./opt Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./opt.capacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "CPU nice usage",
+        "description": "CPU nice usage",
+        "metricId": "cpu.nice",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./opt Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./opt.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./tmp Leaked",
+        "description": "Leaked",
+        "metricId": "fs_mount./tmp.leaked",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System /dev/hd3 Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs./dev/hd3.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./opt Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./opt.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./sysroot Free Disk Space",
+        "description": "Free Disk Space",
+        "metricId": "fs_mount./sysroot.free",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./boot Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs_mount./boot.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTE_RATE",
+        "label": "File System /dev/vda3 Bytes Written",
+        "description": "Bytes Written/s",
+        "metricId": "fs./dev/vda3.writeBytes",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "TCP Fails",
+        "description": "TCP Fails",
+        "metricId": "tcp.fails",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./tmp Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./tmp.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System _mount./var.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs_mount./var.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd9var Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd9var.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "BYTES",
+        "label": "File System /dev/vda1.i Capacity",
+        "description": "Capacity",
+        "metricId": "fs./dev/vda1.icapacity",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd10opt Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs./dev/hd10opt.used",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System /dev/hd1 Inode Usage",
+        "description": "Inode Usage",
+        "metricId": "fs./dev/hd1.inodeUsage",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "NUMBER",
+        "label": "File System _mount./home Inode Free",
+        "description": "Inode Free",
+        "metricId": "fs_mount./home.ifree",
+        "pluginId": "host",
+        "custom": false
+    },
+    {
+        "formatter": "PERCENTAGE",
+        "label": "File System _mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9 Used Disk Percentage",
+        "description": "Used Disk Percentage",
+        "metricId": "fs_mount./var/lib/kubelet/plugins/kubernetes.io/csi/pv/pvc-5847bd82-e06e-439c-9117-973d905f9338/globalmount/0001-0009-rook-ceph-0000000000000001-42b80242-e729-11ec-accd-0a580afe0fa9.used",
+        "pluginId": "host",
+        "custom": false
+    }
+]

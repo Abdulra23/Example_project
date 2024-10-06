@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Licensed Materials - Property of IBM-->
+<!--Copyright IBM Corp. 2019 All Rights Reserved-->
+<!--US Government Users Restricted Rights - Use, duplication or-->
+<!--disclosure restricted by GSA ADP Schedule Contract with-->
+<!--IBM Corp.-->
+<!--This file was created by Agent Factory-->
+<!--Version agentfac 201903281419-->
+<PRIVATECONFIGURATION>
+  <!-- Situation Description: Critical or major faults occurred in the server.-->
+  <PRIVATESIT>
+    <SITUATION>Server_Crit</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_UCS_SERVERS_HEALTH_SUMMARY.Health *EQ 'RED']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6UCSSRVR.RCKMONT_ID;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Information, warning, or minor faults occurred in the server.-->
+  <PRIVATESIT>
+    <SITUATION>Server_Warn</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_UCS_SERVERS_HEALTH_SUMMARY.Health *EQ 'YELLOW']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6UCSSRVR.RCKMONT_ID;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Critical or major faults occurred in the component.-->
+  <PRIVATESIT>
+    <SITUATION>Chassis_FEX_Crit</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_CHASSISANDFABRICEXTENDER_HEALTH_SUMMARY.Health *EQ 'RED']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6CHSFEXH.CHASIFEXID;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Warning or minor faults occurred in the component.-->
+  <PRIVATESIT>
+    <SITUATION>Chassis_FEX_Warn</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_CHASSISANDFABRICEXTENDER_HEALTH_SUMMARY.Health *EQ 'YELLOW']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6CHSFEXH.CHASIFEXID;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Critical or major faults occurred in fabric interconnect.-->
+  <PRIVATESIT>
+    <SITUATION>FI_Crit</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_FI_HEALTH_SUMMARY.Health *EQ 'RED']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6FIHESUM.FABRICI_ID;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Warning or minor faults occurred in the fabric interconnect.-->
+  <PRIVATESIT>
+    <SITUATION>FI_Warn</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_FI_HEALTH_SUMMARY.Health *EQ 'YELLOW']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6FIHESUM.FABRICI_ID;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Critical or major faults occurred in fabric interconnect fans.-->
+  <PRIVATESIT>
+    <SITUATION>FI_Fan_Crit</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_FI_FAN_HEALTH_SUMMARY.Health *EQ 'RED']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6FNHELTH.FABRICI_ID;SEV=Critical;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+  <!-- Situation Description: Information, warning, or minor faults occurred in the FI fans.-->
+  <PRIVATESIT>
+    <SITUATION>FI_Fan_Warn</SITUATION>
+    <CRITERIA><![CDATA[*IF *VALUE KV6_FI_FAN_HEALTH_SUMMARY.Health *EQ 'YELLOW']]></CRITERIA>
+    <INTERVAL>000820</INTERVAL>
+    <SITINFO><![CDATA[ATOM=KV6FNHELTH.FABRICI_ID;SEV=Warning;TFWD=Y;TDST=0]]></SITINFO>
+  </PRIVATESIT>
+</PRIVATECONFIGURATION>

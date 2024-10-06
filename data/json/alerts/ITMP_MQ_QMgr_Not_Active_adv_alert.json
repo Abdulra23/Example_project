@@ -1,0 +1,34 @@
+{
+    "alertName": "ITMP_MQ_QMgr_Not_Active_adv_alert",
+    "muteUntil": 0,
+    "integrationIds": [],
+    "eventFilteringConfiguration": {
+        "query": "entity.tag:Ben",
+        "ruleIds": [
+            "ITMP_MQ_QMgr_Not_Active_adv"
+        ],
+        "applicationAlertConfigIds": []
+    },
+    "customPayloadFields": [
+        {
+            "key": "msg",
+            "type": "staticString",
+            "value": "ITM--MQ Queue Manager $Managers.MQ_Manager_Name$ Has A Status Of $Managers.MQ_Manager_Status$ On $Managers.Host_Name$"
+        },
+        {
+            "key": "NotifyAction",
+            "type": "staticString",
+            "value": "11"
+        },
+        {
+            "key": "NotifyCategory",
+            "type": "staticString",
+            "value": "2"
+        },
+        {
+            "key": "NotifyEmailGroup",
+            "type": "staticString",
+            "value": "username@email.com"
+        }
+    ]
+}

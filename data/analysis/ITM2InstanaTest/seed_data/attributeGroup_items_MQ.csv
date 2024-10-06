@@ -1,0 +1,13 @@
+Current_Events.Event
+Current_Events.Event_Qualifier
+Page_Sets.Percent_Pages_In_Use
+Page_Sets.Total_Extents
+Queue_Statistics.Queue_Name
+Queue_Statistics.Current_Depth
+Queue_Statistics.Percent_Full
+Message_Statistics.Queue_Name
+Message_Statistics.Total_Messages
+Managers.MQ_Manager_Status
+Local_Time.Day_Of_Week
+Local_Time.Hours
+Local_Time.Time
